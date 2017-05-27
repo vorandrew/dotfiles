@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source ./helper.sh
+
 ################################################
 bot "Standard System Changes"
 ################################################
@@ -129,7 +131,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false;ok
 
 running "Set a blazingly fast keyboard repeat rate"
 defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10;ok
+defaults write NSGlobalDomain InitialKeyRepeat -int 20;ok
 
 running "Set language and text formats (english/US)"
 defaults write NSGlobalDomain AppleLanguages -array "en"

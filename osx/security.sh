@@ -63,7 +63,7 @@ sudo systemsetup -setwakeonnetworkaccess off
 # sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.smbd.plist
 
 # Display login window as name and password
-sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true
+# sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true
 
 # Do not show password hints
 sudo defaults write /Library/Preferences/com.apple.loginwindow RetriesUntilHint -int 0

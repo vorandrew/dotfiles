@@ -101,15 +101,12 @@ cask 'slack'
 cask 'staruml'
 cask 'telegram'
 cask 'the-unarchiver'
-cask 'thinkorswim'
-cask 'utorrent'
 cask 'viber'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
 
 # Fonts
-cask 'font-sauce-code-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
@@ -124,4 +121,3 @@ cask 'font-source-code-pro'
 
 # Install Mac App Store apps
 mas 'Todoist', id: 585829637
-

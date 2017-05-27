@@ -1,6 +1,8 @@
-find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
+#!/usr/bin/env bash
+
+find * -name "*.sh" -not -wholename "setup*" | while read setup; do
     echo "./$setup"
-    ./$setup -chsh
+    ./$setup
 done
 
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
