@@ -1,0 +1,11 @@
+code --install-extension EditorConfig.EditorConfig
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension drewbarrett.vscode-coffeescript-preview
+code --install-extension joelday.docthis
+code --install-extension joshpeng.sublime-babel-vscode
+code --install-extension lkytal.coffeelinter
+code --install-extension lukehoban.Go
+code --install-extension redhat.vscode-yaml
+code --install-extension stevencl.addDocComments
+code --install-extension yzhang.markdown-all-in-one
