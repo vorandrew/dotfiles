@@ -9,3 +9,4 @@ code --install-extension lukehoban.Go
 code --install-extension redhat.vscode-yaml
 code --install-extension stevencl.addDocComments
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension mikestead.dotenv
