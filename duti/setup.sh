@@ -1,7 +1,5 @@
 #! /usr/bin/env sh
 
-brew install duti
-
 DIR=$(dirname "$0")
 cd "$DIR"
 
