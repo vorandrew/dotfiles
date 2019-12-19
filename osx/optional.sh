@@ -6,7 +6,7 @@ source ./helper.sh
 # Optional / Experimental                      #
 ################################################
 
-COMPUTER_NAME="mac15"
+COMPUTER_NAME="mac16"
 
 # running "Set computer name (as done via System Preferences → Sharing)"
 sudo scutil --set ComputerName "$COMPUTER_NAME"
