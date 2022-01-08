@@ -1,3 +1,3 @@
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew tap homebrew/bundle
 brew bundle

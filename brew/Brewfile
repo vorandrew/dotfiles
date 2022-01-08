@@ -1,12 +1,12 @@
 cask_args appdir: "/Applications"
 
 # Taps
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 
 brew 'ag'
 brew 'aria2'
-brew 'aws-keychain'
+brew 'aws-vault'
 brew 'awscli'
 brew 'bash-completion'
 brew 'coreutils'
@@ -23,7 +23,6 @@ brew 'gnu-sed'
 brew 'gnupg'
 brew 'gnutls'
 brew 'go'
-brew 'gpg-agent'
 brew 'grep'
 brew 'htop'
 brew 'httpie'
