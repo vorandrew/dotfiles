@@ -40,7 +40,9 @@ brew 'rename'
 brew 'reattach-to-user-namespace'
 brew 'rsync'
 brew 'screen'
+brew 'skaffold'
 brew 'ssh-copy-id'
+brew 'telepresence'
 brew 'the_silver_searcher'
 brew 'tig'
 brew 'tmux'
@@ -61,8 +63,11 @@ brew 'zsh-syntax-highlighting'
 # Apps
 brew 'alfred'
 brew 'anki'
+brew 'baretorrent'
 brew 'beyond-compare'
 brew 'caffeine'
+brew 'clipy'
+brew 'conduktor'
 brew 'dash'
 brew 'diffmerge'
 brew 'dropbox'
@@ -79,6 +84,14 @@ brew 'telegram'
 brew 'the-unarchiver'
 brew 'visual-studio-code'
 brew 'vlc'
+
+conduktor
+dash
+motivewave
+sizeup
+vscode
+
+
 
 # Fonts
 brew 'font-awesome-terminal-fonts'
