@@ -59,8 +59,8 @@ sudo systemsetup -setwakeonmodem off
 sudo systemsetup -setwakeonnetworkaccess off
 
 # Disable file-sharing via AFP or SMB
-# sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.AppleFileServer.plist
-# sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.smbd.plist
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.AppleFileServer.plist
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.smbd.plist
 
 # Display login window as name and password
 # sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true

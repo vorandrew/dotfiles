@@ -131,7 +131,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false;ok
 
 running "Set a blazingly fast keyboard repeat rate"
 defaults write -g KeyRepeat -int 1
-defaults write -g InitialKeyRepeat -int 20;ok
+defaults write -g InitialKeyRepeat -int 10;ok
 
 running "Set language and text formats (english/US)"
 defaults write NSGlobalDomain AppleLanguages -array "en"

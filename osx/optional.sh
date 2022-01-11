@@ -16,7 +16,7 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 
 # running "Disable smooth scrolling"
 # (Uncomment if you’re on an older Mac that messes up the animation)
-# defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false;ok
+defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false;ok
 
 # running "Disable Resume system-wide"
 # defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false;ok
@@ -50,12 +50,12 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true;ok
 # defaults write com.apple.dock persistent-apps -array "";ok
 
 #running "Enable the 2D Dock"
-#defaults write com.apple.dock no-glass -bool true;ok
+defaults write com.apple.dock no-glass -bool true;ok
 
 #running "Disable the Launchpad gesture (pinch with thumb and three fingers)"
 #defaults write com.apple.dock showLaunchpadGestureEnabled -int 0;ok
 
 #running "Add a spacer to the left side of the Dock (where the applications are)"
-#defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}';ok
+defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}';ok
 #running "Add a spacer to the right side of the Dock (where the Trash is)"
-#defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}';ok
+defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}';ok
